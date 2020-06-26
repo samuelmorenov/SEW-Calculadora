@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html lang="es">
+   <head>
+      <meta charset="UTF-8"/>
+      <title>Calculadora</title>
+      <link rel="stylesheet" type="text/css" href="CalculadoraBasica.css"/>
+      <script src="CalculadoraBasica.js"></script>
+   </head>
+   <body>
+      <div id="calcu">
+          <div class="contenedor">
+              <input type="text" class="textinterno" id="textoPantalla" value="0" disabled>
+          </div>
+         <div class="contenedor">
+            <div><input type="button" class="button memoria" value="mrc" onclick="calculadora.mrc()"/></div>
+            <div><input type="button" class="button memoria" value="m-" onclick="calculadora.mmenos()"/></div>
+            <div><input type="button" class="button memoria" value="m+" onclick="calculadora.mmas()"/></div>
+            <div><input type="button" class="button operacion" value="/" onclick="calculadora.añadir('/')"/>
+             </div>
+         </div>
+         <div class="contenedor">
+            <div><input type="button" class="button numero" value="7" onclick="calculadora.añadir('7')"/></div>
+            <div><input type="button" class="button numero" value="8" onclick="calculadora.añadir('8')"/></div>
+            <div><input type="button" class="button numero" value="9" onclick="calculadora.añadir('9')"/></div>
+            <div><input type="button" class="button operacion" value="*" onclick="calculadora.añadir('*')"/></div>
+         </div>
+         <div class="contenedor">
+            <div><input type="button" class="button numero" value="4" onclick="calculadora.añadir('4')"/></div>
+            <div><input type="button" class="button numero" value="5" onclick="calculadora.añadir('5')"/></div>
+            <div><input type="button" class="button numero" value="6" onclick="calculadora.añadir('6')"/></div>
+            <div><input type="button" class="button operacion" value="-" onclick="calculadora.añadir('-')"/></div>
+         </div>
+         <div class="contenedor">
+            <div><input type="button" class="button numero" value="1" onclick="calculadora.añadir('1')"/></div>
+            <div><input type="button" class="button numero" value="2" onclick="calculadora.añadir('2')"/></div>
+            <div><input type="button" class="button numero" value="3" onclick="calculadora.añadir('3')"/></div>
+            <div><input type="button" class="button operacion" value="+" onclick="calculadora.añadir('+')"/></div>
+         </div>
+         <div class="contenedor">
+            <div><input type="button" class="button numero" value="0" onclick="calculadora.añadir('0')"/></div>
+            <div><input type="button" class="button numero" value="." onclick="calculadora.añadir('.')"/></div>
+            <div><input type="button" class="button numero" value="C" onclick="calculadora.ponerACero()"/></div>
+            <div><input type="button" class="button operacion" value="=" onclick="calculadora.igual()"/></div>
+         </div>
+      </div>
+      <footer>
+         <a href="https://validator.w3.org/check?uri=referer">
+         <img src="https://www.w3.org/html/logo/downloads/HTML5_1Color_White.png"
+            alt="HTML5 Válido"
+            title="HTML5 Válido"
+            height="44"/>
+         </a>
+         <a href="http://jigsaw.w3.org/css-validator/check/referer">
+         <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="¡CSS Válido!"
+            title="¡CSS Válido!"
+            height="31"/>
+         </a>
+      </footer>
+   </body>
+</html>

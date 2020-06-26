@@ -1,0 +1,77 @@
+body {
+    font: 400 15px;
+    line-height: 1.8;
+    color: #051124;
+    background-color: #96FFFF ;
+    background: linear-gradient(to right, #96FFFF, #2177F7); 
+    /*margin: 1em 10em 1em;*/
+  }
+#calcu{
+    margin:0% auto 0;
+    width:100%;
+    box-shadow: rgba(0,0,0,0.4) 0.8em 0.8em;
+    border: solid;
+    background-color: #F8C471;
+    padding: 0em;
+    padding-top: 0.5em;
+    border-radius: 0.5em;
+}
+#calcu .contenedor{
+    display:table;
+    width:100%;
+    text-align:center;
+}
+#calcu .contenedor div{
+    display:table-cell;
+    font-size:150%;
+    padding:1%;
+    width:10%;
+}
+#calcu .contenedor .boton{
+    width:25%;
+    padding:1%;
+}
+
+.textinterno{
+    background-color: #FEF5E7;
+    /*pointer-events: none;*/
+    color: #2d1104;
+    font-size: 150%;
+    text-align: right;
+    width: 90%;
+    color:black;
+    border:solid;
+    border-style: inset;
+    border-radius: 0.5em;
+    border-width: 0.2em;
+    
+}
+.button {
+    border: solid;
+    border-color: #6E2C00;
+    border-radius: 0.5em;
+    border-width: 0.1em;
+    box-shadow: rgba(0,0,0,0.4) 0em 0.05em;
+    width: 100%;
+    color: #2d1104;
+    text-align: center;
+    font-size: 1em;
+    padding: 0.5em;
+
+}
+.button:hover {
+    background-color: #6E2C00;
+    color: #FFCD0D;
+}
+.operacion {
+    background-color: #EB984E;
+}
+.memoria {
+    background-color: #D35400;
+}
+.numero {
+    background-color: #FFC00D;
+}
+footer{
+    text-align:right;
+}
