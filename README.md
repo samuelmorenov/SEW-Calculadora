@@ -2,6 +2,10 @@
 
 ## Calculadora
 
+[Despliegue de la calculadora Basica](https://samuelmorenov.github.io/SEW-Calculadora/CalculadoraBasica.html) 
+
+[Despliegue  de la calculadora Cientifica](https://samuelmorenov.github.io/SEW-Calculadora/CalculadoraCientifica.html)
+
 *Escuela de Ingeniería Informática - Uniovi*
 
 Proyecto realizado por:
